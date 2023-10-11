@@ -26,11 +26,23 @@ var villes = { // Seules les villes ajoutées dans ce tableau sont affichées su
                // nombres dans l'url sont lat et lon :
                // https://www.google.com/maps/@50.4255595,2.8231708,12.95z
                // correspond à Lens, avec lat : 50.4255595 lon :2.3231708
-  "Paris": { "lat": 48.852969, "lon": 2.349903 },
+  "Las Vegas": { "lat": 36.17500344978097, "lon": -115.1558318665754 },
   "Brest": { "lat": 48.383, "lon": -4.500 },
   "Quimper": { "lat": 48.000, "lon": -4.100 },
+<<<<<<< HEAD
   "Bayonne": { "lat": 43.500, "lon": -1.467 },
   "Lyon" : {"lat":45.73030142435228, "lon" : 4.8375900014023125},
+=======
+  "Amsterdam": {"lat":52.368388554466414,"lon":4.869617208162693}, 
+  "Singapour":{"lat":1.3526643302094663,"lon":103.86728384518547},
+  "Thiembronne": { "lat": 50.6167, "lon": 2.05 },
+  "Lille": { "lat": 50.633333, "lon": 3.066667 },
+  "Lens": { "lat": 50.43, "lon": 2.83 },
+  "Meurchin" : {"lat":50.49541207899306, "lon":2.890619616742624},
+  "Saguenay" : {"lat":48.44129461059203, "lon":-71.0466017493057},
+
+  "Bayonne": { "lat": 43.500, "lon": -1.467 }
+>>>>>>> 177c888f0ee526d813a93adbb63f847363ddb796
 };
 
 window.onload = function(){
@@ -61,15 +73,15 @@ window.onload = function(){
                 la ville A fonctionne. Pensez à ajouter les coordonnées de A
                 dans le tableau ville, en début de fichier -->
           <div class="card-header">
-            <div class="card-title h5">Paris</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">Las Vegas</div>
+            <div class="card-subtitle text-gray">Jolie Ville</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="./img/lasvegas.jpg" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+              C'est la fête h24 !
           </div>
         </div>
       </div>
@@ -99,20 +111,20 @@ window.onload = function(){
       
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <!--Biet Lou-anne-->
-        <div id="ville_Quimper" class="card bg-dark m-2">
+        <div id="ville_Amsterdam" class="card bg-dark m-2">
           <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
                 la ville A fonctionne. Pensez à ajouter les coordonnées de A
                 dans le tableau ville, en début de fichier -->
           <div class="card-header">
-            <div class="card-title h5">Quimper</div>
+            <div class="card-title h5">Amsterdam</div>
             <div class="card-subtitle text-gray">Capitale</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/e5/59/5e/caption.jpg?w=500&h=400&s=1" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+            Amsterdam, capitale des Pays-Bas, est connue pour son patrimoine artistique.
           </div>
         </div>
       </div>
@@ -179,40 +191,40 @@ window.onload = function(){
 
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <!--Duez Benoit-->
-        <div id="ville_Bayonne" class="card bg-dark m-2">
+        <div id="ville_Singapour" class="card bg-dark m-2">
           <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
                 la ville A fonctionne. Pensez à ajouter les coordonnées de A
                 dans le tableau ville, en début de fichier -->
           <div class="card-header">
-            <div class="card-title h5">Bayonne</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">Singapour</div>
+            <div class="card-subtitle text-gray">Ville etat</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="https://eco-business.imgix.net/ebmedia/fileuploads/Singapore_at_night.jpg?ar=16%3A10&auto=format&fit=crop&ixlib=django-1.2.0&q=85&width=320" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+          Une des plus belle ville état du monde,une culture éxtraordinaire
           </div>
         </div>
       </div>
 
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <!--Filoque Eleanor-->
-        <div id="ville_Bayonne" class="card bg-dark m-2">
+        <div id="ville_Saguenay" class="card bg-dark m-2">
           <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
                 la ville A fonctionne. Pensez à ajouter les coordonnées de A
                 dans le tableau ville, en début de fichier -->
           <div class="card-header">
-            <div class="card-title h5">Bayonne</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">Saguenay</div>
+            <div class="card-subtitle text-gray">Capitale régionale, Québec</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Chicou3.jpg/300px-Chicou3.jpg" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+            Ville à l'Est du Lac St Jean, accueillant notamment l'UQAC.
           </div>
         </div>
       </div>
@@ -279,20 +291,20 @@ window.onload = function(){
 
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <!--Machu Killian-->
-        <div id="ville_Bayonne" class="card bg-dark m-2">
+        <div id="ville_Lens" class="card bg-dark m-2">
           <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
                 la ville A fonctionne. Pensez à ajouter les coordonnées de A
                 dans le tableau ville, en début de fichier -->
           <div class="card-header">
-            <div class="card-title h5">Bayonne</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">Lens</div>
+            <div class="card-subtitle text-gray">Ville</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="https://www.francebleu.fr/s3/cruiser-production/2014/03/85ce1025-a514-11e3-8fe6-782bcb7402be/1200x680_maxnewsworldthree003665.jpg" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+            Dans la ville de Lens vous retrouverez le club du RCL qui a gagné 2-1 contre Arsenal hier.
           </div>
         </div>
       </div>
@@ -319,40 +331,40 @@ window.onload = function(){
 
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <!--Picquet Sébastien-->
-        <div id="ville_Bayonne" class="card bg-dark m-2">
+        <div id="ville_Thiembronne" class="card bg-dark m-2">
           <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
                 la ville A fonctionne. Pensez à ajouter les coordonnées de A
                 dans le tableau ville, en début de fichier -->
           <div class="card-header">
-            <div class="card-title h5">Bayonne</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">THIEMBRONNE</div>
+            <div class="card-subtitle text-gray">Capitale du Nord</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="https://www.delcampe.net/static/img_large/auction/000/708/596/900_001.jpg" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+            Thiembronne est un merveilleux village situé dans le nord de la France.
           </div>
         </div>
       </div>
 
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <!--Verhas Lola-->
-        <div id="ville_Bayonne" class="card bg-dark m-2">
+        <div id="ville_Lille" class="card bg-dark m-2">
           <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
                 la ville A fonctionne. Pensez à ajouter les coordonnées de A
                 dans le tableau ville, en début de fichier -->
           <div class="card-header">
-            <div class="card-title h5">Bayonne</div>
+            <div class="card-title h5">Lille</div>
             <div class="card-subtitle text-gray">Capitale</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="img/lille.jpg" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+            Lille est la capitale des Hauts-de-France, une région du nord de la France. Elle se trouve à proximité de la frontière belge. Aujourd'hui centre culturel et ville universitaire animée, elle fut autrefois une importante plateforme marchande des Flandres françaises, et de nombreuses influences flamandes demeurent encore.
           </div>
         </div>
       </div>
